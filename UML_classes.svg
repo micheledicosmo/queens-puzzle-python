@@ -1,0 +1,57 @@
+<svg version="1.1" baseProfile="full" width="1133" height="364" viewbox="0 0 1133 364" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font-weight:bold; font-size:12pt; font-family:'Calibri', Helvetica, sans-serif;;stroke-width:3;stroke-linejoin:round;stroke-linecap:round">
+<title >nomnoml</title>
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+[QueensSolver||+static main(): void;+static numberOfSolutions(): number]
+[Board|+n: number;+pieces: Piece\[\]|+size(): number;+admissiblePlacementFor(): boolean;+add(): void;+remove(): void]
+[Piece|+board: Board;+i: number;+j: number;+static UNKNOWN: number|+isOnBoard(): boolean;+placeOn(): void;+removeFromBoard(): void;+attacks(): boolean;+isMindfulOf(): boolean;+rowIndex(): number;+colIndex(): number]
+[Knight||+attacks(): boolean]
+[Queen||+attacks(): boolean]
+[Piece]&lt;:-[Knight]
+[Piece]&lt;:-[Queen]</desc>
+<path d="M802.7 241.5 L785 261.5 L785 281.5 L785 281.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M797.8 255 L793.9 251.5 L789.9 248 L802.7 241.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></path>
+<path d="M1004.3 241.5 L1022 261.5 L1022 281.5 L1022 281.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M1017.1 248 L1013.1 251.5 L1009.2 255 L1004.3 241.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></path>
+<rect x="13.5" y="85.5" height="85" width="349" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<a id=".QueensSolver" xlink:href=""><text x="188" y="107" style="fill: #33322E;text-anchor: middle;">QueensSolver</text></a>
+<path d="M13.5 116.5 L362.5 116.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M13.5 124.5 L362.5 124.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="21.5" y="146" style="fill: #33322E;font-weight:normal;">+static main(): void</text>
+<text x="21.5" y="161" style="fill: #33322E;font-weight:normal;">+static numberOfSolutions(): number</text>
+<rect x="402.5" y="51.5" height="153" width="339" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<a id=".Board" xlink:href=""><text x="572" y="73" style="fill: #33322E;text-anchor: middle;">Board</text></a>
+<path d="M402.5 82.5 L741.5 82.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="410.5" y="104" style="fill: #33322E;font-weight:normal;">+n: number</text>
+<text x="410.5" y="119" style="fill: #33322E;font-weight:normal;">+pieces: Piece[]</text>
+<path d="M402.5 128.5 L741.5 128.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="410.5" y="150" style="fill: #33322E;font-weight:normal;">+size(): number</text>
+<text x="410.5" y="165" style="fill: #33322E;font-weight:normal;">+admissiblePlacementFor(): boolean</text>
+<text x="410.5" y="180" style="fill: #33322E;font-weight:normal;">+add(): void</text>
+<text x="410.5" y="195" style="fill: #33322E;font-weight:normal;">+remove(): void</text>
+<rect x="781.5" y="13.5" height="228" width="244" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<a id=".Piece" xlink:href=""><text x="903.5" y="35" style="fill: #33322E;text-anchor: middle;">Piece</text></a>
+<path d="M781.5 44.5 L1025.5 44.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="789.5" y="66" style="fill: #33322E;font-weight:normal;">+board: Board</text>
+<text x="789.5" y="81" style="fill: #33322E;font-weight:normal;">+i: number</text>
+<text x="789.5" y="96" style="fill: #33322E;font-weight:normal;">+j: number</text>
+<text x="789.5" y="111" style="fill: #33322E;font-weight:normal;">+static UNKNOWN: number</text>
+<path d="M781.5 120.5 L1025.5 120.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="789.5" y="142" style="fill: #33322E;font-weight:normal;">+isOnBoard(): boolean</text>
+<text x="789.5" y="157" style="fill: #33322E;font-weight:normal;">+placeOn(): void</text>
+<text x="789.5" y="172" style="fill: #33322E;font-weight:normal;">+removeFromBoard(): void</text>
+<text x="789.5" y="187" style="fill: #33322E;font-weight:normal;">+attacks(): boolean</text>
+<text x="789.5" y="202" style="fill: #33322E;font-weight:normal;">+isMindfulOf(): boolean</text>
+<text x="789.5" y="217" style="fill: #33322E;font-weight:normal;">+rowIndex(): number</text>
+<text x="789.5" y="232" style="fill: #33322E;font-weight:normal;">+colIndex(): number</text>
+<rect x="686.5" y="281.5" height="70" width="197" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<a id=".Knight" xlink:href=""><text x="785" y="303" style="fill: #33322E;text-anchor: middle;">Knight</text></a>
+<path d="M686.5 312.5 L883.5 312.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M686.5 320.5 L883.5 320.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="694.5" y="342" style="fill: #33322E;font-weight:normal;">+attacks(): boolean</text>
+<rect x="923.5" y="281.5" height="70" width="197" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<a id=".Queen" xlink:href=""><text x="1022" y="303" style="fill: #33322E;text-anchor: middle;">Queen</text></a>
+<path d="M923.5 312.5 L1120.5 312.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M923.5 320.5 L1120.5 320.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="931.5" y="342" style="fill: #33322E;font-weight:normal;">+attacks(): boolean</text>
+</svg>
