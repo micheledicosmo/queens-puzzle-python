@@ -11,7 +11,7 @@ def numberOfSolutions(i, board):
 
         for j in range(board.size()):
             queen.placeOn(board, i, j)
-            if (board.adminissiblePlacementFor(queen)):
+            if (board.admissiblePlacementFor(queen)):
                 count = count + numberOfSolutions(i + 1, board)
             queen.removeFromBoard()
 
